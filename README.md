@@ -88,7 +88,7 @@ Finally, the system already has a registered user with different expenses so tha
 
 
 
-##Credits
+## Credits
 This project has been developed by:
 
 Mario Fernández\
