@@ -46,7 +46,7 @@ information so he can create an account.
 Afterwards, the user will be in the main page of the program with the following actions:
 * QRcode to pay.
 * Visualize my budget for my categories.
-* Earn some money into a category.
+* Enter some money into a category.
 * Observe my expenses in a category.
 
 By choosing an option, the user will be directed to different program windows, and whenever the user wants he can 
@@ -63,7 +63,7 @@ go back to the main page.
     * _Output_: Table with the budgets and return to the main page.
 
 
-3. **Earn some money into a category**. For this function, the user will be able to enter an  amount of money into a specific category. The program will show firstly a table with the budgets the user has, so he can see them.
+3. **Enter some money into a category**. For this function, the user will be able to enter an  amount of money into a specific category. The program will show firstly a table with the budgets the user has, so he can see them.
 
     * _User inputs_: Amount of money to enter and in which category the user wants to put it.
     * _Outputs_: Table with the new budgets, a message confirming the deposit of money. The program will ask again if the user wants to enter more money, if not he will return to the main page.
@@ -91,11 +91,13 @@ Finally, the system already has a registered user with different expenses so tha
 ## Credits
 This project has been developed by:
 
-Mario Fernández\
+
 Álvaro García \
 Emna Bouzguenda\
+German Medina\
 Juan Antonio Teixidor\
-Victoria Sanchez\
-German Medina
+Mario Fernández\
+Victoria Sanchez
+
 
 
