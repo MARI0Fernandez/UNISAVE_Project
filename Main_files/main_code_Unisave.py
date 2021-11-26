@@ -194,7 +194,7 @@ class Features:
         i = list(df["NIF"]).index(self.nif)
 
         self.Showmoney()
-        money = input("\nHow much money do you want to earn? (<Enter> to quit) ")
+        money = input("\nHow much money do you want to enter? (<Enter> to quit) ")
         while money != "":
             money = eval(money)
             category = eval(input("In which category do you can to put the money?"
@@ -345,7 +345,7 @@ def main():
     answer = input("What would you like to do? (<Enter> to quit)"
         "\n1. QRcode to pay."
         "\n2. Visualize my budget for my categories."
-        "\n3. Earn some money into a category."
+        "\n3. Enter some money into a category."
         "\n4. Observe my expenses in a category"
         "\n")
     features = Features(NIF, name, surname, degree,  budget, qrcode_image, university, restaurant, supermarket, leisure)
@@ -374,7 +374,7 @@ def main():
         print("\nWhat else do you want to do? (<Enter> to quit)")
         answer = input("1. QRcode to pay."
         "\n2. Visualize my budget for my categories."
-        "\n3. Earn some money into a category."
+        "\n3. Enter some money into a category."
         "\n4. Observe my expenses in a category"
         "\n")
 
